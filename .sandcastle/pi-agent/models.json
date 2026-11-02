@@ -1,0 +1,16 @@
+{
+  "providers": {
+    "commandcode": {
+      "name": "CommandCode",
+      "baseUrl": "https://api.commandcode.ai/provider/v1",
+      "api": "openai-completions",
+      "apiKey": "$COMMANDCODE_API_KEY",
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4.1-flash"
+        }
+      ]
+    }
+  },
+  "$schema": "https://pi.dev/schemas/models.schema.json"
+}
