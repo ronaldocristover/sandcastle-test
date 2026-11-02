@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Caches
+.cache/
+.turbo/
+.eslintcache
+.parcel-cache/
+
+# Sandcastle worktrees
+.sandcastle/logs/
+.sandcastle/worktrees/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

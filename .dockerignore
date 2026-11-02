@@ -1,0 +1,59 @@
+# Dependencies (reinstalled in image)
+node_modules
+.pnp
+.pnp.js
+.yarn/
+
+# Git / VCS
+.git
+.gitignore
+.gitattributes
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist
+build
+out
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Test / coverage
+coverage
+.nyc_output
+test-results
+playwright-report
+
+# Caches
+.cache
+.turbo
+.eslintcache
+.parcel-cache
+
+# Sandcastle artifacts
+.sandcastle/logs
+.sandcastle/worktrees
+.sandcastle/.env
+
+# Docs / editor / OS
+README.md
+LICENSE
+CHANGELOG.md
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+docker-compose*.yaml
+.dockerignore
